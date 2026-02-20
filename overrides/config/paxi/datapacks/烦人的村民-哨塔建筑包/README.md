@@ -26,4 +26,4 @@
 
 ## 新增玩家角色
 - 命令：`/function av_build:spawn_player_allenzhang710901`
-- 作用：生成玩家阵营角色 `allenzhang710901`（可见名字、常驻不消失）。
+- 作用：生成玩家阵营角色 `allenzhang710901`（基于 `angry_steve`，强度略高一档、可见名字、常驻不消失）。
