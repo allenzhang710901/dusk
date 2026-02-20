@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": "烦人的村民：新增哨塔建筑（/function av_build:spawn_watchtower）"
+  }
+}
