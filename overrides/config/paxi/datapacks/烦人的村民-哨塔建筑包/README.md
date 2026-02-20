@@ -30,8 +30,8 @@
 
 
 ## 新增生物扩展
-- 动物联合协会巡逻队：`/function av_build:spawn_animal_union_patrol`
-  - 包含：狼、狐狸、山羊、战马，以及 `player_mobs:player_mob` 协会成员。
+- 动物联合协会巡逻队（BBP阵营）：`/function av_build:spawn_animal_union_patrol`
+  - 包含：`buxin:bbq`（作为 BBP 阵营核心）、狼、狐狸、山羊、战马，以及 `player_mobs:player_mob` 协会成员。
 
 ## 新增 HIM 分身版本（沿用原实体AI，已规避 shadow_herobrine 崩溃点）
 - ` /function av_build:spawn_him_clone_vanguard `（先锋，机动型）
@@ -43,21 +43,25 @@
 
 
 ## allenzhang710901 强化AI（新增）
+- 基础血量升级到 120，初始攻击/移速进一步提高。
 - 残血（<=24）会后撤逃跑并自疗。
 - 残血时会在周围临时搭建方块掩体。
-- 战斗中按距离动态换武器，并持续轮换整合包武器池（含多把 `buxin` 武器 + 远程武器）：
+- 战斗中按距离动态换武器，并持续轮换更大的整合包武器池：
   - 近战优先：`buxin:dark_herobrine_weapon`
   - 中距优先：弩
   - 远程优先：三叉戟
-  - 轮换池示例：`dark_herobrine_weapon` / `blood_greatsword` / `dark_legendary_sword` / `alloygiantsword` / `diamond_tachi_sword` / `diamond_long_axe` / `hui_mie_zhi_jian` / `fire_snake_sword`
-- 基础血量升级到 80，并配置全套下界合金护甲、图腾。
+  - 轮换池新增：`he_jin_wan_sword` / `diamond_spear` / `diamond_shield` / `diamond_giant_sword` / `goldenlongsword` / `zuan_shi_wan_dao` 等。
+- 新增第二形态与第三形态：
+  - 第二形态（血量<=70）：提升到更高上限并强化攻速生存。
+  - 第三形态（血量<=35）：终局爆发，大幅提升攻击与移速。
 
 相关函数：
 - `av_build:tick`（每tick驱动）
 - `av_build:allen_ai_tick`
 - `av_build:allen_ai_flee`
+- `av_build:allen_phase2`
+- `av_build:allen_phase3`
 - `av_build:spawn_player_allenzhang710901`
-
 
 ## 崩溃规避（重要）
 - 当前 `buxin-3.4.6` 中 `shadow_herobrine` 存在目标判空崩溃风险。
