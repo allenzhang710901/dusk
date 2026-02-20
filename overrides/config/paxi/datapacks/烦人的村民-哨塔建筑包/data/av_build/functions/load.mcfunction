@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[烦人的村民-建筑包] 已加载。命令：","color":"gold"},{"text":"/place structure buxin:villager_scout_outpost","color":"aqua"},{"text":"、","color":"gold"},{"text":"/function av_build:place_villager_scout_outpost","color":"aqua"},{"text":"、","color":"gold"},{"text":"/function av_build:spawn_large_settlement_set","color":"yellow"},{"text":"（一键5新建筑）","color":"gold"}]
