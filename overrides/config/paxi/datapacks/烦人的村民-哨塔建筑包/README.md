@@ -43,8 +43,8 @@
 
 
 ## allenzhang710901 强化AI（新增）
-- 基础血量升级到 120，初始攻击/移速进一步提高。
-- 残血（<=24）会后撤逃跑并自疗。
+- 基础血量升级到 180，初始攻击/移速进一步提高（专门针对能压制 angry_steve 调整）。
+- 残血（<=45）会优先“吃玉米卷+附魔金苹果”回血；重伤（<=24）会后撤逃跑并自疗。
 - 残血时会在周围临时搭建方块掩体。
 - 战斗中按距离动态换武器，并持续轮换更大的整合包武器池：
   - 近战优先：`buxin:dark_herobrine_weapon`
@@ -59,6 +59,7 @@
 - `av_build:tick`（每tick驱动）
 - `av_build:allen_ai_tick`
 - `av_build:allen_ai_flee`
+- `av_build:allen_ai_eat`
 - `av_build:allen_phase2`
 - `av_build:allen_phase3`
 - `av_build:spawn_player_allenzhang710901`

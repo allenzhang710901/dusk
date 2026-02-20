@@ -1,8 +1,8 @@
 # allenzhang710901 动态AI：三阶段 + 换武器 + 残血逃跑 + 临时搭方块
 
 # 常驻强化（高生存）
-effect give @s resistance 2 1 true
-effect give @s strength 2 1 true
+effect give @s resistance 2 2 true
+effect give @s strength 2 2 true
 
 # 阶段切换（按血量）
 execute if entity @s[tag=!allen_phase2,nbt={Health:..70f}] run function av_build:allen_phase2
@@ -34,5 +34,6 @@ execute if entity @e[distance=..3,sort=nearest,limit=1,type=!buxin:angry_steve,t
 execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:crossbow
 execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:trident
 
-# 残血时逃跑 + 补血 + 搭掩体
+# 残血时吃东西回血 + 逃跑 + 补血 + 搭掩体
+execute if entity @s[nbt={Health:..45f}] run function av_build:allen_ai_eat
 execute if entity @s[nbt={Health:..24f}] run function av_build:allen_ai_flee
