@@ -27,3 +27,16 @@
 ## 新增玩家角色
 - 命令：`/function av_build:spawn_player_allenzhang710901`
 - 作用：生成玩家阵营角色 `allenzhang710901`（基于 `angry_steve`，强度略高一档、可见名字、常驻不消失）。
+
+
+## 新增生物扩展
+- 动物联合协会巡逻队：`/function av_build:spawn_animal_union_patrol`
+  - 包含：狼、狐狸、山羊、战马，以及 `player_mobs:player_mob` 协会成员。
+
+## 新增 HIM 分身版本（沿用原实体AI）
+- ` /function av_build:spawn_him_clone_vanguard `（先锋，机动型）
+- ` /function av_build:spawn_him_clone_bulwark `（壁垒，坦克型）
+- ` /function av_build:spawn_him_clone_ravager `（掠袭，爆发型）
+- ` /function av_build:spawn_him_clone_squad `（一键生成三种分身）
+
+> 说明：AI 行为沿用 `buxin` 模组原有 Herobrine 实体逻辑，本次在 datapack 层做了定位与数值强化区分。
