@@ -21,9 +21,8 @@ setblock ~0 ~1 ~-4 chest[facing=south]
 loot insert ~ ~1 ~-4 loot minecraft:chests/pillager_outpost
 
 # 驻守实体
-summon buxin:villager_scout ~2 ~1 ~2
-summon buxin:cun_min_wei_bing ~-2 ~1 ~2
-summon buxin:green_villager_cavalry ~0 ~1 ~3
-summon buxin:villager_prisoner ~0 ~1 ~-2
+summon buxin:steve ~-2 ~1 ~2
+summon buxin:alex ~0 ~1 ~3
+summon buxin:pvp_monster ~0 ~1 ~-2
 
 tellraw @s {"text":"[烦人的村民-建筑包] 玩家聚集地已生成。","color":"green"}
