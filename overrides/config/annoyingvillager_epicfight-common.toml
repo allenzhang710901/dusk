@@ -1,0 +1,46 @@
+
+[Cost]
+	#使用格挡弹反的耐力消耗倍率，最高为int上限2147483647，最低为0，默认为0.5。注意！这里的倍率为伤害X倍率，即1点伤害X0.5倍率=0.5点伤害
+	#Range: 0.0 ~ 2.147483647E9
+	GuardBounce_Cost = 0.7
+	#释放战刃变招式的耐力消耗，最高为int上限2147483647，最低为0，默认为2。
+	#Range: 0.0 ~ 2.147483647E9
+	LegendaryGodSword_Cost = 2.0
+
+[Damage]
+	#战刃重击中的伤害倍率调整，最高为int上限2147483647，最低为0，默认为10
+	#Range: 0.0 ~ 2.147483647E9
+	LegendaryGodSword_HeavyAttack_DamageRatio = 10.0
+	#钻石磁能剑在激活状态中的等比例能量伤害，最高为1，最低为0，默认为0.35
+	#Range: 0.0 ~ 1.0
+	MagneticSwordSkill_DamageRatio = 0.1
+	#特殊攻击的百分比血量上限伤害调整，最高为1，最低为0，默认为0.5
+	#Range: 0.0 ~ 1.0
+	SpecialAttackDamage_Ratio = 0.1
+	#伤害减免中魔法伤害的低效防护比例，最高为1，最低为0，默认为0.25 注：这里的倍率为伤害减免X倍率，即1点伤害减免X0.25倍率=0.25点伤害减免
+	#Range: 0.0 ~ 1.0
+	MagicDamage_ResistanceRatio = 0.1
+	#伤害减免中穿甲伤害的低效防护比例，最高为1，最低为0，默认为0.5 注：这里的倍率为伤害减免X倍率，即1点伤害减免X0.5倍率=0.5点伤害减免
+	#Range: 0.0 ~ 1.0
+	BypassArmorDamage_ResistanceRatio = 0.1
+
+[Ratio]
+	#Woopie技能冲刺的速度倍率，最高为int上限2147483647，最低为0，默认为5
+	#Range: 0.0 ~ 2.147483647E9
+	WoopieSkill_Speed = 5.0
+	#Woopie技能冲刺的高度倍率，最高为int上限2147483647，最低为0，默认为2.5
+	#Range: 0.0 ~ 2.147483647E9
+	WoopieSkill_High = 2.5
+	#磁引剑的技能范围半径，最高为int上限2147483647，最低为0，默认为8
+	#Range: 0.0 ~ 2.147483647E9
+	MagneticSkill_RadiusRatio = 8.0
+	#磁引剑的技能吸力强度，最高为int上限2147483647，最低为0，默认为2
+	#Range: 0.0 ~ 2.147483647E9
+	MagneticSkill_StrengthRatio = 2.0
+
+[Pro]
+	#什么？战刃还是太弱？那你可来对地方了，将下方false改为true，便可享受到百分比真伤和无敌！注：百分比伤害只有受击对象血量为1024以上才生效。
+	LegendaryGodSword_ProMax = true
+	#什么？战刃的重型攻击破坏方块还是太难受了？那你可来对地方了，将下方true改为false，便可关闭方块破坏！
+	LegendaryGodSword_BrokenBlock = true
+

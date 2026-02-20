@@ -1,0 +1,48 @@
+seeInjuredNames = true
+#Range: 0 ~ 255
+plateMaxA = 127
+applyToPlayers = true
+#Range: 0 ~ 255
+plateMaxB = 65
+#Range: 0 ~ 255
+plateMaxG = 63
+applyToScores = true
+playersAlwaysNamed = true
+#Range: 0 ~ 255
+nameMinG = 17
+golemsAlwaysNamed = true
+injuredAlwaysNamed = true
+#Range: 0 ~ 255
+nameMinR = 255
+tamesAlwaysNamed = true
+namesWithoutHUD = false
+villagersAlwaysNamed = true
+#Range: 0 ~ 255
+plateMinR = 62
+seeFrameNames = true
+#Range: 0 ~ 255
+nameMaxR = 20
+#Range: 0 ~ 255
+nameMinB = 17
+#Range: 0 ~ 255
+nameMinA = 255
+#Range: 0 ~ 255
+plateMinA = 119
+seeYourName = true
+#Range: 0 ~ 255
+plateMaxR = 66
+#Range: 0 ~ 64
+visibleRange = 18
+#Range: 0 ~ 255
+plateMinB = 65
+stripFormat = true
+#Range: 0 ~ 255
+nameMaxB = 14
+#Range: 0 ~ 255
+nameMaxA = 255
+#Range: 0 ~ 255
+plateMinG = 72
+applyToMobs = true
+#Range: 0 ~ 255
+nameMaxG = 255
+

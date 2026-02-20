@@ -1,0 +1,5 @@
+
+[improve]
+	#是否能攻击到倒地的实体/Can it attack entities that have fallen to the ground
+	CanAttackKnockDown = true
+

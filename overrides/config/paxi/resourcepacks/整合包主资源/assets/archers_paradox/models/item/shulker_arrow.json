@@ -1,0 +1,6 @@
+{
+  "parent": "archers_paradox:blocks/arrow",
+  "textures": {
+    "layer0": "archers_paradox:item/projectiles/arrow"
+  }
+}

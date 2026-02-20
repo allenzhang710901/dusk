@@ -1,0 +1,6 @@
+
+[EntityDodgePercentge]
+	#烦村生物/部分敌对生物生物被攻击时闪避的概率
+	#Range: 0 ~ 100
+	EntityDodgePercentge = 35
+

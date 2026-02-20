@@ -1,0 +1,18 @@
+{
+  "inventory": {
+    "0:6": "{Count:32b,id:\"minecraft:golden_apple\"}",
+    "0:8": "{Count:1b,id:\"ftbquests:book\"}",
+    "0:5": "{Count:16b,id:\"minecraft:enchanted_golden_apple\"}",
+    "0:4": "{Count:8b,id:\"buxin:yumijuan\"}",
+    "0:28": "{Count:8b,id:\"minecraft:ender_pearl\"}",
+    "0:3": "{Count:1b,id:\"minecraft:iron_boots\",tag:{Damage:0,EA_ENABLED:1b,RARITY:2}}",
+    "0:1": "{Count:1b,id:\"minecraft:diamond_sword\",tag:{Damage:0,EA_ENABLED:1b,RARITY:1}}",
+    "0:27": "{Count:1b,id:\"prefab:item_house\"}",
+    "0:0": "{Count:1b,id:\"minecraft:iron_sword\",tag:{Damage:0,EA_ENABLED:1b,RARITY:3}}",
+    "0:29": "{Count:2b,id:\"minecraft:obsidian\"}",
+    "0:30": "{Count:64b,id:\"minecraft:arrow\"}",
+    "0:7": "{Count:1b,id:\"minecraft:bow\",tag:{Damage:0,EA_ENABLED:1b,RARITY:1}}",
+    "0:2": "{Count:1b,id:\"minecraft:iron_chestplate\",tag:{Damage:0,EA_ENABLED:1b,RARITY:3}}"
+  },
+  "wipeBlacklist": []
+}

@@ -1,0 +1,5 @@
+
+[EnableTimeGui]
+	#启用时，右上角会存在时间和整合包名字显示
+	EnableTimeGui = true
+

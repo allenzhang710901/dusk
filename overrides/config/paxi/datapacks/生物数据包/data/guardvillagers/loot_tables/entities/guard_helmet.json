@@ -1,0 +1,70 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qiarmor_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.001
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qiarmor_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.001
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qiarmor_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.001
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qiarmor_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.001
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qiarmor_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.001
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qiarmor_helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.995
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "击杀任务",
+  "quests": [
+    {
+      "uuid": "b0d44540-a257-4369-bf3a-3b33ac462307",
+      "name": {
+        "text": "击杀村民阵营生物",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "击杀村民阵营生物",
+        "isTranslationKey": false
+      },
+      "x": 23,
+      "y": 11,
+      "icon": {
+        "id": "buxin:woopie",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:kill",
+          "mobs": [
+            {
+              "name": {
+                "text": "击杀红村骑",
+                "isTranslationKey": false
+              },
+              "mob": "buxin:red_villager",
+              "kills": 1
+            },
+            {
+              "name": {
+                "text": "击杀紫村骑",
+                "isTranslationKey": false
+              },
+              "mob": "buxin:purple_villager_cavalry",
+              "kills": 1
+            },
+            {
+              "name": {
+                "text": "击杀绿村骑",
+                "isTranslationKey": false
+              },
+              "mob": "buxin:green_villager_cavalry",
+              "kills": 1
+            },
+            {
+              "name": {
+                "text": "击杀村民侦察兵",
+                "isTranslationKey": false
+              },
+              "mob": "buxin:villager_scout",
+              "kills": 1
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "buxin:woopie",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "Count": 20
+        },
+        {
+          "id": "minecraft:enchanted_golden_apple",
+          "Count": 16
+        },
+        {
+          "id": "buxin:chun_cui_de_dimoand_hu_jia_chestplate",
+          "Count": 1,
+          "tag": "{Damage:0,Enchantments:[{id:\"minecraft:binding_curse\",lvl:5s},{id:\"minecraft:protection\",lvl:5s}]}"
+        },
+        {
+          "id": "minecraft:obsidian",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c6dc4c1-c52a-4162-a37d-728e042ed723",
+      "name": {
+        "text": "Unnamed",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "Unnamed quest",
+        "isTranslationKey": false
+      },
+      "x": 24,
+      "y": 12,
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": {
+    "text": "击杀生物以获取奖励",
+    "isTranslationKey": false
+  }
+}

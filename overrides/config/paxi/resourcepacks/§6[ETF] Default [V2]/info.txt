@@ -1,0 +1,11 @@
+Thank you for downloading this pack and using my mod :)
+
+This project has meant alot to me the past few months and it has been great to contribute such a beloved feature to the fabric community.
+
+Feel free to join the discord for the mod @ https://discord.gg/rURmwrzUcz
+
+The Entity Texture Features mod is required for this pack and is available on:
+ - [CurseForge] @ https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric
+ - [Modrinth]   @ https://modrinth.com/mod/entitytexturefeatures
+
+This pack should also work fine with OptiFine but will not use all the features as ETF has additional features.

@@ -1,0 +1,67 @@
+{
+  "name": "收集任务",
+  "quests": [
+    {
+      "uuid": "9bfd4d36-b8f5-4f7c-9c71-3bd034c236a9",
+      "name": {
+        "text": "收集任务",
+        "isTranslationKey": false
+      },
+      "description": {
+        "text": "收集任务",
+        "isTranslationKey": false
+      },
+      "x": 31,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:splash_potion",
+        "Count": 1,
+        "tag": "{Potion:\"buxin:zuanshiyaoshui\"}"
+      },
+      "tasks": [
+        {
+          "type": "hardcorequesting:craft",
+          "items": [
+            {
+              "item": {
+                "id": "buxin:diamond_2",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "buxin:snakebs",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "buxin:specail_stick",
+                "Count": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:splash_potion",
+          "Count": 1,
+          "tag": "{Potion:\"buxin:zuanshiyaoshui\"}"
+        },
+        {
+          "id": "buxin:niubi_2danshou",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}

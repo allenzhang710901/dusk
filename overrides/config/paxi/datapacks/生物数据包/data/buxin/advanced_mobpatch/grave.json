@@ -1,0 +1,202 @@
+{
+	"model": "epicfight:entity/biped",
+	"armature": "epicfight:entity/biped",
+	"renderer": "player", 
+	"isHumanoid": true,
+	"faction": "undead",
+	"attributes": {
+		"impact": 0.0,
+		"armor_negation": 0.0,
+		"max_strikes": 195,
+		"chasing_speed": 1.5,
+        "scale": 1.0,
+		"counter_chance": 0.3,
+		"counter_cost": 1.0,
+		"block_stamina": 650.0,
+		"stamina_cost_multiply": 0.2,
+		"can_block_projectile": true
+	},
+	"default_livingmotions": {
+		"idle": "epicfight:biped/living/idle",
+		"walk": "epicfight:biped/living/walk",
+		"chase": "epicfight:biped/living/run",
+		"death": "epicfight:enderman/convert_rage"
+	},
+	"humanoid_weapon_motions": [
+		  {
+			"weapon_categories": ["axe", "hoe", "pickaxe", "shovel", "sword"],
+			"style":"common",
+			"livingmotions": {
+				"chase": "epicfight:biped/living/run",
+                "walk": "epicfight:biped/living/walk"
+			}
+		  },
+              { 
+                  "weapon_categories": ["longsword"],
+                  "style":"common", 
+                  "livingmotions": {
+                        "chase": "epicfight:biped/living/hold_longsword",
+                        "walk": "epicfight:biped/living/hold_longsword"
+                  }
+              }
+	],
+	"custom_guard_motion": [
+            { 
+                  "weapon_categories": ["longsword","tachi"],
+                  "style":"common", 
+                  "guard": "indestructible:guard/guard_longsword",
+				  "counter": "indestructible:guard/counter",
+				  "speed": 3
+            },
+			{ 
+                  "weapon_categories": ["axe", "hoe", "pickaxe", "shovel", "sword", "katana"],
+                  "style":"common", 
+                  "guard": "indestructible:guard/guard_sword",
+				  "counter": "wom:biped/combat/katana_sheathed_auto_3",
+				  "speed": 3
+            },
+			{ 
+                  "weapon_categories": ["sword"],
+                  "style":"two_hand", 
+                  "guard": "indestructible:guard/guard_dualsword",
+				  "counter": "epicfight:biped/combat/sword_dual_auto3",
+				  "speed": 3
+            },
+			{ 
+                  "weapon_categories": ["katana"],
+                  "style":"common", 
+                  "guard": "indestructible:guard/guard_katana",
+				  "counter": "indestructible:guard/counter",
+				  "speed": 1
+            },
+			{ 
+                  "weapon_categories": ["greatsword"],
+                  "style":"common", 
+                  "guard": "indestructible:guard/guard_greatsword",
+				  "counter": "indestructible:guard/counter",
+				  "speed": 1
+            },
+			{ 
+                  "weapon_categories": ["spear"],
+                  "style":"common", 
+                  "guard": "indestructible:guard/guard_spear",
+				  "counter": "indestructible:guard/counter",
+				  "speed": 1
+            }
+			
+	],
+	"stun_animations": {
+		"short": "epicfight:biped/combat/hit_short",
+		"long": "epicfight:biped/combat/hit_long",
+		"knockdown": "epicfight:biped/combat/knockdown",
+		"fall": "epicfight:biped/living/landing"
+	},
+	"combat_behavior": [
+            {
+			"weapon_categories": ["sword", "axe"],
+			"style": "two_hand",
+			"behavior_series": [
+				{
+					"weight": 75.0,
+					"canBeInterrupted": false,
+					"looping": false,
+                    				"cooldown": 0,
+					"behaviors": [
+						{
+							"conditions": [
+                                {"predicate":"within_distance", "min": 0.0, "max": 2.0},
+                                {"predicate":"attack_level", "min": 1, "max": 2},
+                                {"predicate":"knock_down", "invert": true}, {"predicate": "guard_break", "invert": true}
+							],
+							"guard": 1
+						}
+                    ]                 
+				},
+				{
+					"weight": 100.5,
+					"canBeInterrupted": true,
+					"looping": true,
+					"behaviors": [	
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "buxin:biped/combat/sword_dual_auto_4_better",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "buxin:biped/combat/sword_dual_auto1",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.5}
+							],
+							"animation": "buxin:biped/combat/sword_dual_auto_3_better",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.5}
+							],
+							"animation": "buxin:biped/combat/kick1",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "buxin:biped/combat/sword_dual_auto1",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.5}
+							],
+							"animation": "buxin:biped/combat/kick2",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "buxin:biped/combat/d3",
+							"play_speed": 2.23
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "buxin:biped/combat/sword_dual_auto2",
+							"play_speed": 1.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "buxin:biped/combat/d4",
+							"play_speed": 2.9
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 3.0}
+							],
+							"animation": "epicfight:biped/combat/dagger_dual_dash",
+							"play_speed": 2.8
+						},
+						{
+							"conditions": [
+								{"predicate":"within_distance", "min": 0.0, "max": 4.0}
+							],
+							"animation": "buxin:biped/combat/d4",
+							"play_speed": 1.8
+						}
+                        ]                 
+				}
+			]
+		}
+	]
+}

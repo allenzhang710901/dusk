@@ -1,0 +1,6 @@
+
+[SwordBattleNeutralizeValue]
+	#拼刀破防需要的攻击次数
+	#Range: 1 ~ 15
+	SwordBattleNeutralizeValue = 5
+

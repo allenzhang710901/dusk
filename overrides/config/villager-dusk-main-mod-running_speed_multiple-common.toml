@@ -1,0 +1,6 @@
+
+[RunningSpeedMultiple]
+	#消耗耐力时跑步的速度倍率
+	#Range: 0.0 ~ 10.0
+	RunningSpeedMultiple = 1.145
+

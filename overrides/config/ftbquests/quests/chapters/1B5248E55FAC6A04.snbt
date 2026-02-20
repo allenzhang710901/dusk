@@ -1,0 +1,209 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1B5248E55FAC6A04"
+	group: ""
+	id: "1B5248E55FAC6A04"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "70C23D06A68C4C31"
+			rewards: [{
+				id: "642392E8293966C2"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			subtitle: "黑曜石"
+			tasks: [{
+				id: "49C6FC4FDC3093BC"
+				item: "buxin:snakebs"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "28E6C7C35F00489E"
+			rewards: [{
+				count: 20
+				id: "17B0460C7F997A3F"
+				item: "buxin:snakebs"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "buxin:shifang"
+				icon: "buxin:super_snake_sword"
+				id: "0A3BDE294F9433DE"
+				title: "击败蛇刃Herobrine高级分身"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "50B3A54D8F208394"
+			rewards: [
+				{
+					id: "25E422CBEC297BD0"
+					item: "buxin:changdao"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F7804992931A032"
+					item: "buxin:snakebs"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:changdaohim"
+				icon: "buxin:changdao"
+				id: "7A02F11EC5B12161"
+				title: "击败蛇刃长枪Herobrine高级分身"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "6902C047D6D700F5"
+			rewards: [
+				{
+					id: "15CCAA239B04B77E"
+					item: "buxin:niubi_8"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6F9D551F3851A361"
+					item: "buxin:snakebs"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:shadow_sickle_herobrine"
+				icon: "buxin:niubi_8"
+				id: "2CD5A66F20073526"
+				title: "击败黑斧Herobrine高级分身"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "401F1ED20E57FC07"
+			rewards: [
+				{
+					id: "15C4437E8E3BC516"
+					item: {
+						Count: 1b
+						id: "buxin:black_shield_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6502A3757BB88B4E"
+					item: "buxin:snakebs"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:black_shield_herobrine"
+				icon: {
+					Count: 1b
+					id: "buxin:black_shield_2"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "35255A2484D68918"
+				title: "击败黑盾Herobrine高级分身"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "400A5A1D6D05120C"
+			rewards: [
+				{
+					id: "645D68A27D99AAC9"
+					item: {
+						Count: 1b
+						id: "buxin:yingchui_2"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 14
+					id: "624C003A69A3BD7D"
+					item: "buxin:snakebs"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:yingchuihim"
+				icon: {
+					Count: 1b
+					id: "buxin:yingchui_2"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0FBE3D0CE5D0F7E7"
+				title: "击败影锤Herobrine高级分身"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "60217665023839E3"
+			rewards: [
+				{
+					count: 4
+					id: "196CD0D8084F31C8"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "326D94B0B9C784DB"
+					item: "buxin:zuan_jian_2"
+					type: "item"
+				}
+				{
+					id: "4A0575F160AFA2FE"
+					item: "buxin:yumijuan"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "269973540E1765F3"
+				item: {
+					Count: 1b
+					id: "buxin:shuangdaograve_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+	]
+	title: "烦村黄昏-进阶任务"
+}

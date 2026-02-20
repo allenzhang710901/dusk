@@ -1,0 +1,16 @@
+
+[SnakeBladeMaxTarget]
+	#蛇刃刀片最大攻击数(/次)
+	#Range: 2 ~ 100
+	SnakeBladeMaxTarget = 15
+
+[SnakeBladeMaxRange]
+	#蛇刃刀片最大判断距离(block)
+	#Range: 2 ~ 100
+	SnakeBladeMaxRange = 50
+
+[SnakeBladeSmoothValue]
+	#蛇刃刀片弯曲程度
+	#Range: 0 ~ 100
+	SnakeBladeSmoothValue = 1
+

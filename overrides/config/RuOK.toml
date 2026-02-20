@@ -1,0 +1,11 @@
+onCull = false
+maxEntityEntities = 128
+entitiesDistance = 64
+QualityModes = "NORMAL"
+RenderWeather = "CLOSE"
+RenderTNTExplosions = true
+FastItemRender = false
+RenderDisplayItem = false
+blackListedEntities = []
+whiteListedEntities = []
+isAlwaysShowItemCount = true

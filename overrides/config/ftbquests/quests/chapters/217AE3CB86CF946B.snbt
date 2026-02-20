@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "217AE3CB86CF946B"
+	group: ""
+	id: "217AE3CB86CF946B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "37F392AB4D411452"
+			rewards: [{
+				id: "41039EF6872D18FB"
+				item: "prefab:item_house_advanced"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "player_mobs:player_mob"
+				icon: "minecraft:red_banner"
+				id: "2AD745D99B527EE6"
+				title: "击杀NPC"
+				type: "kill"
+				value: 50L
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "4B142EAF1024024F"
+			rewards: [
+				{
+					id: "2397CC952049D98E"
+					item: {
+						Count: 1b
+						id: "buxin:diamond_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ECBE2B1EECB0F21"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "buxin:zuanshiyaoshui"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0B5B7EBEE47594AA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:grave_2"
+				icon: {
+					Count: 1b
+					id: "buxin:shuangdaograve_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "173EEFD575584E1F"
+				title: "击杀格雷夫"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			id: "424AD1FCB7704D96"
+			rewards: [
+				{
+					id: "5F51BA91D5CE1A57"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5220CA5076C1FFAD"
+					item: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:long_slowness"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:the_most_moist_burrit0"
+				icon: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "buxin:zuanshiyaoshui"
+					}
+				}
+				id: "0850BFB7C5CF55F5"
+				title: "击杀煎饼果子"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "634252AB1F689E65"
+			rewards: [
+				{
+					id: "1E0F187D3BE3E286"
+					item: "buxin:c_sword"
+					type: "item"
+				}
+				{
+					id: "35C803D2131A9A8D"
+					item: "buxin:jiandun"
+					type: "item"
+				}
+				{
+					id: "5BD31E9E147E2F7A"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "buxin:zuanshiyaoshui"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:mr"
+				icon: "buxin:jiandun"
+				id: "5F6D29828D6B198F"
+				title: "击杀Mr.colder"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "719DC88A3C844006"
+			rewards: [
+				{
+					id: "68819F916E7F7A87"
+					item: {
+						Count: 1b
+						id: "wom:gesetz"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "754C871EED2535BD"
+					item: {
+						Count: 1b
+						id: "wom:herrscher"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:enchanter"
+				icon: {
+					Count: 1b
+					id: "wom:gesetz"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "26D50F4C287E81A6"
+				title: "击杀Enchanter"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "62C4C2A5BA645D23"
+			rewards: [
+				{
+					id: "030D130AA7E2B526"
+					item: "buxin:niubi_2danshou"
+					type: "item"
+				}
+				{
+					count: 24
+					id: "134EE6210B2930E3"
+					item: "buxin:diamond_2"
+					type: "item"
+				}
+				{
+					id: "7EAF5782ACC17139"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "buxin:zuanshiyaoshui"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:angry_steve"
+				icon: "buxin:legendary_sword"
+				id: "56A7D7E8DAE4EFC3"
+				title: "击杀愤怒的史蒂夫"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "552C2969D3B65866"
+			rewards: [
+				{
+					id: "3356F8AA16F18581"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "490B8A1C6A8F330C"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F526ABA01EBBA48"
+					item: {
+						Count: 1b
+						id: "buxin:lanemo_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 22
+					id: "179A1106C5137F06"
+					item: "buxin:diamond_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:lanemobenti"
+				icon: {
+					Count: 1b
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "488BEB8D90223A8B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "击杀蓝恶魔"
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "烦村黄昏-高级挑战"
+}

@@ -1,0 +1,453 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F2B19EAD495128F"
+	group: ""
+	id: "6F2B19EAD495128F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4425CC60430AE839"
+			rewards: [
+				{
+					id: "17A7625C4BE01582"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "4CF4FDAF8095CA22"
+					item: "buxin:yumijuan"
+					type: "item"
+				}
+				{
+					id: "3D496CDFDD983826"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "钻石剑!"
+			tasks: [{
+				id: "76DD427DCBCB95E2"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			icon: "buxin:cun_min_wei_bing_spawn_egg"
+			id: "3ACF8CF9D1006D2E"
+			rewards: [
+				{
+					id: "71EF59C5CF370B5B"
+					item: {
+						Count: 1b
+						id: "epicfight:diamond_tachi"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AF0EAC0363E7338"
+					item: {
+						Count: 1b
+						id: "buxin:cun_min_tou_kui_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:cun_min_wei_bing"
+				icon: {
+					Count: 1b
+					id: "buxin:cun_min_tou_kui_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "070BFF3DF194165A"
+				title: "击杀蓝村骑5个"
+				type: "kill"
+				value: 5L
+			}]
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			id: "02D76153E6C6B41C"
+			rewards: [
+				{
+					id: "1B2CFB4CABC5D06C"
+					item: {
+						Count: 1b
+						id: "buxin:villager_scouts_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5756B707FC85B166"
+					item: {
+						Count: 1b
+						id: "prefab:item_villager_houses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:villager_scout"
+				icon: {
+					Count: 1b
+					id: "buxin:villager_scouts_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B210B7A405240DA"
+				title: "击杀村民侦察兵10个"
+				type: "kill"
+				value: 10L
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			id: "1BE54027A79295A5"
+			rewards: [
+				{
+					id: "5A1430EB6C32E1B0"
+					item: {
+						Count: 1b
+						id: "villager_dusk:zuan_shi_ying_ren"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00FD7EB0A0B58FCC"
+					item: "buxin:qibinjian"
+					type: "item"
+				}
+				{
+					id: "72E7DBE0750968EF"
+					item: {
+						Count: 1b
+						id: "buxin:green_villager_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:green_villager_cavalry"
+				icon: {
+					Count: 1b
+					id: "buxin:green_villager_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "23BBAE9D2508515A"
+				title: "击杀绿村骑10个"
+				type: "kill"
+				value: 10L
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			id: "1CE055CFD16A3223"
+			rewards: [
+				{
+					id: "3D6B50CD6318F09E"
+					item: {
+						Count: 1b
+						id: "buxin:purple_villager_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "104628CBF1109E97"
+					item: {
+						Count: 1b
+						id: "villager_dusk:zi_zuan_jian"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:purple_villager_cavalry"
+				icon: {
+					Count: 1b
+					id: "buxin:purple_villager_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "628C0FECBB3CCC6C"
+				title: "击杀紫村骑10个"
+				type: "kill"
+				value: 10L
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			id: "0B0027DA0FF1FF7E"
+			rewards: [
+				{
+					id: "6E0205D2BD061821"
+					item: {
+						Count: 1b
+						id: "buxin:red_villager_head_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09C1302DD9CC66CB"
+					item: "buxin:zuan_jian_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "buxin:red_villager"
+				icon: {
+					Count: 1b
+					id: "buxin:red_villager_head_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "03BACFB72A3FF717"
+				title: "击杀红村骑20个"
+				type: "kill"
+				value: 20L
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "5A1FC14B5A1E1C8C"
+			rewards: [
+				{
+					id: "63F17D02911FE8B2"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "buxin:zuanshiyaoshui"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23CC8D3452B58B35"
+					item: "buxin:woopie"
+					type: "item"
+				}
+			]
+			subtitle: "集齐所有类型村民的头盔"
+			tasks: [
+				{
+					id: "562099672120ADC4"
+					item: {
+						Count: 1b
+						id: "buxin:red_villager_head_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59605747BA4E41A9"
+					item: {
+						Count: 1b
+						id: "buxin:green_villager_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B4453D03BCEB9C1"
+					item: {
+						Count: 1b
+						id: "buxin:cun_min_tou_kui_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "359AF654A57D41C8"
+					item: {
+						Count: 1b
+						id: "buxin:purple_villager_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F6455F597475E1E"
+					item: {
+						Count: 1b
+						id: "buxin:villager_scouts_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "集齐所有类型村民的头盔"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			id: "4F350C3BF1F633A6"
+			rewards: [{
+				id: "61D1A15BA7A8F4CB"
+				item: {
+					Count: 1b
+					id: "wom:herrscher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "这是...村民王国？"
+			tasks: [{
+				icon: "minecraft:emerald"
+				id: "2AAD0F6CC533CB81"
+				structure: "buxin:vl_village"
+				title: "这是...村民王国？"
+				type: "structure"
+			}]
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			id: "0BDBAA7EC22A50A6"
+			rewards: [{
+				id: "0512EDDD1DF3EA0A"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			subtitle: "炸弹客！"
+			tasks: [{
+				id: "24CD3DB4469D1554"
+				item: "buxin:bao_zha_bi_shou"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			id: "59152E9A19F1CC5F"
+			rewards: [{
+				count: 4
+				id: "34F8651BB18034A8"
+				item: "buxin:diamond_2"
+				type: "item"
+			}]
+			subtitle: "史蒂夫No.2的武器"
+			tasks: [{
+				id: "659018DCCB92C90E"
+				item: "buxin:niubi_15"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			id: "310C40A7187A9B41"
+			rewards: [{
+				count: 16
+				id: "337DBAD759CBBD5A"
+				item: "minecraft:cooked_cod"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "1C456280ABC171A3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "杀死北极熊"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "5733D143622DBF7C"
+			rewards: [{
+				id: "081284E848F26F7A"
+				item: "buxin:bao_zha_bi_shou"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "441AA52F334F7606"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484768F75095B684"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
+			title: "爆炸匕首"
+			x: -19.0d
+			y: 0.0d
+		}
+	]
+	title: "烦村黄昏-新手入门"
+}

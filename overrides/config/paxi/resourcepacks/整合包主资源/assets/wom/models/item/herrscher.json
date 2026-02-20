@@ -1,0 +1,7 @@
+{
+  "parent": "wom:custom/lu_bao_shi_chan_zi_",
+  "textures": {
+    "0": "wom:blocks/lu_bao_shi_chan_zi_",
+    "particle": "wom:items/lu_bao_shi_chan_zi_"
+  }
+}

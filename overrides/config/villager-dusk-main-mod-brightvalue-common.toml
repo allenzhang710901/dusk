@@ -1,0 +1,6 @@
+
+[BrightValue]
+	#发光物品的亮度
+	#Range: 1 ~ 15728880
+	BrightValue = 15728880
+

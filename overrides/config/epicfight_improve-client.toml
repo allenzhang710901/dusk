@@ -1,0 +1,7 @@
+
+[toggle]
+	#自动根据准星指向结果来切换模式/Automatically switch modes based on the result pointed by the crosshair
+	AutoToggleMode = false
+	#取消完美闪避后的残影/No longer generating shadows after perfect dodge
+	PrefectDodgeShadow = true
+

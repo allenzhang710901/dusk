@@ -1,0 +1,18 @@
+{
+  "type": "guardvillagers:slot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "annoying_villagersbychentu:lan_cun_qi_jian"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ironbows:netherite_bow"
+        }
+      ]
+    }
+  ]
+}

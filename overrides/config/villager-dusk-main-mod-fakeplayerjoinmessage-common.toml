@@ -1,0 +1,5 @@
+
+[FakePlayerJoinMessage]
+	#假玩家加入
+	FakePlayerJoinMessage = false
+

@@ -1,0 +1,16 @@
+
+[GuardShakeTimeValue]
+	#格挡的时候产生的屏幕抖动效果持续的时间
+	#Range: 0 ~ 400
+	GuardShakeTimeValue = 19
+
+[GuardShakeAmplitudeValue]
+	#格挡的时候产生的屏幕抖动效果持续的震动量
+	#Range: 0 ~ 10
+	GuardShakeAmplitudeValue = 4
+
+[GuardShakeFrequencyValue]
+	#格挡的时候产生的屏幕抖动效果持续的震动度
+	#Range: 0 ~ 10
+	GuardShakeFrequencyValue = 4
+

@@ -1,0 +1,15 @@
+#Spawn rate for player npc.
+#Set to 0 if you want to prevent them from spawning
+#Don't set it too high, the game will become a Death Match game
+#Minimum: 0
+#Maximum: 1
+#Range: 0.0 ~ 1.0
+playerNpcSpawnRate = 0.2
+#Chance for Herobrine possess another player npc to be Herobrine on killed
+#Set to 0 if you want to disable the possessing feature
+#Don't set it too high, the game will become Herobrine apocalypse
+#Minimum: 0
+#Maximum: 1
+#Range: 0.0 ~ 1.0
+herobrinePossessRate = 0.2
+

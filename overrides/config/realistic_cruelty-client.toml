@@ -1,0 +1,22 @@
+
+[particle]
+	soundVolume = 1.0
+
+	[particle.blood]
+		amount = 1.0
+		speed = 0.3
+		spread = 60.0
+
+	[particle.splat]
+		enable = true
+
+	[particle.fog]
+		size = 0.5
+
+	[particle.splash]
+		amount = 3
+
+[clientOnlyGore]
+	melee = 0
+	trident = 0
+

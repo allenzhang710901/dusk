@@ -1,0 +1,5 @@
+
+[VFXParticleConfig]
+	#启用VFX粒子
+	VFXParticleConfig = true
+
