@@ -33,7 +33,7 @@
 - 动物联合协会巡逻队：`/function av_build:spawn_animal_union_patrol`
   - 包含：狼、狐狸、山羊、战马，以及 `player_mobs:player_mob` 协会成员。
 
-## 新增 HIM 分身版本（沿用原实体AI）
+## 新增 HIM 分身版本（沿用原实体AI，已规避 shadow_herobrine 崩溃点）
 - ` /function av_build:spawn_him_clone_vanguard `（先锋，机动型）
 - ` /function av_build:spawn_him_clone_bulwark `（壁垒，坦克型）
 - ` /function av_build:spawn_him_clone_ravager `（掠袭，爆发型）
@@ -57,3 +57,9 @@
 - `av_build:allen_ai_tick`
 - `av_build:allen_ai_flee`
 - `av_build:spawn_player_allenzhang710901`
+
+
+## 崩溃规避（重要）
+- 当前 `buxin-3.4.6` 中 `shadow_herobrine` 存在目标判空崩溃风险。
+- 已将 `HIM分身·先锋` 改为基于 `dark_herobrine` 的安全版。
+- 若旧存档里已有该实体，可执行：`/function av_build:cleanup_shadow_herobrine` 清理。
