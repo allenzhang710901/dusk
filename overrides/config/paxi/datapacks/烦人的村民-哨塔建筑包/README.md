@@ -46,6 +46,7 @@
 - 基础血量升级到 500，且二三阶段上限进一步抬高（专门针对压制 angry_steve 调整）。
 - 残血（<=120）会优先“吃玉米卷+附魔金苹果”强力回血；重伤（<=24）会后撤逃跑并自疗。
 - 残血时会在周围临时搭建方块掩体。
+- 临死（<=10血）时会触发一次“临死反扑”，瞬间召唤2个满血 `allenzhang710901` 分身继续作战。
 - 战斗中按距离动态换武器，并持续轮换更大的整合包武器池（新增反格挡逻辑）：
   - 近战优先：触发 `av_build:allen_ai_break_guard`（切锋利下界斧 + 破防控制 + 魔法伤害）
   - 中距优先：黑曜石武器（`buxin:obs`）
@@ -65,6 +66,7 @@
 - `av_build:allen_ai_break_guard`
 - `av_build:allen_phase2`
 - `av_build:allen_phase3`
+- `av_build:allen_laststand_split`
 - `av_build:spawn_player_allenzhang710901`
 
 ## 崩溃规避（重要）

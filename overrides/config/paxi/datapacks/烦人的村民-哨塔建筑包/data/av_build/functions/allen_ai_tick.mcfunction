@@ -46,3 +46,6 @@ execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_stev
 # 残血时吃东西回血 + 逃跑 + 补血 + 搭掩体
 execute if entity @s[nbt={Health:..120f}] run function av_build:allen_ai_eat
 execute if entity @s[nbt={Health:..24f}] run function av_build:allen_ai_flee
+
+# 临死反扑：仅触发一次，召唤2个满血分身
+execute if entity @s[nbt={Health:..10f},tag=!allen_laststand_used] run function av_build:allen_laststand_split
