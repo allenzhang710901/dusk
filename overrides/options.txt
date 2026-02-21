@@ -128,7 +128,7 @@ key_key.itemzoom.toggle:key.keyboard.z:SHIFT
 key_key.itemzoom.hold:key.keyboard.unknown
 key_key.itemzoom.zoom.in:key.keyboard.unknown
 key_key.itemzoom.zoom.out:key.keyboard.unknown
-key_keybinds.combatroll.roll:key.keyboard.left.alt
+key_keybinds.combatroll.roll:key.keyboard.c
 key_iris.keybind.reload:key.keyboard.end
 key_iris.keybind.toggleShaders:key.keyboard.right.control
 key_iris.keybind.shaderPackSelection:key.keyboard.o
@@ -182,7 +182,7 @@ key_Camera down:key.keyboard.page.down
 key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
 key_key.epicfight.show_tooltip:key.keyboard.left.shift
-key_key.epicfight.switch_mode:key.keyboard.g
+key_key.epicfight.switch_mode:key.keyboard.k
 key_key.epicfight.dodge:key.keyboard.left.alt
 key_key.epicfight.attack:key.mouse.left
 key_key.epicfight.weapon_innate_skill:key.keyboard.r
@@ -215,12 +215,12 @@ key_gui.xaero_toggle_tracked_players_in_world:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_key.modernui.openCenter:key.keyboard.k:CONTROL
 key_key.modernui.zoom:key.keyboard.page.down
-key_key.buxin.ji_neng:key.keyboard.c
-key_key.buxin.snake:key.keyboard.x
+key_key.buxin.ji_neng:key.keyboard.h
+key_key.buxin.snake:key.keyboard.i
 key_key.buxin.throw_ender_peral:key.keyboard.z
-key_key.buxin.run_off:key.keyboard.v
+key_key.buxin.run_off:key.keyboard.j
 key_key.buxin.kill_self:key.keyboard.n
-key_key.ftbultimine:key.keyboard.grave.accent
+key_key.ftbultimine:key.keyboard.backslash
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
