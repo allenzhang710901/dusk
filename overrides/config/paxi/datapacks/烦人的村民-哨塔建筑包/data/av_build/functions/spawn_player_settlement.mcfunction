@@ -20,9 +20,10 @@ setblock ~-1 ~1 ~4 barrel
 setblock ~0 ~1 ~-4 chest[facing=south]
 loot insert ~ ~1 ~-4 loot minecraft:chests/pillager_outpost
 
-# 驻守实体
+# 驻守实体（玩家小队）
 summon buxin:steve ~-2 ~1 ~2
 summon buxin:alex ~0 ~1 ~3
-summon buxin:pvp_monster ~0 ~1 ~-2
+summon buxin:jie_mo ~1 ~1 ~-2 {CustomName:'{"text":"芥末","color":"yellow"}',CustomNameVisible:1b}
+summon buxin:run_grave ~-1 ~1 ~-2 {CustomName:'{"text":"x_grave_x","color":"dark_gray"}',CustomNameVisible:1b}
 
-tellraw @s {"text":"[烦人的村民-建筑包] 玩家聚集地已生成。","color":"green"}
+tellraw @s {"text":"[烦人的村民-建筑包] 玩家聚集地已生成（Steve/Alex/芥末/x_grave_x）。","color":"green"}

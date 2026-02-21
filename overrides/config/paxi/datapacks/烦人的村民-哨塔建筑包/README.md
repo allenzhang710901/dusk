@@ -84,9 +84,9 @@
 - `buxin:av_player_settlement`
 
 ## summon 可用实体（本包相关）
-- `buxin:bbq`、`buxin:cun_min_wei_bing`、`buxin:green_villager_cavalry`、`buxin:villager_scout`、`buxin:dark_herobrine` 等（均可直接 `/summon`）。
+- `buxin:steve`、`buxin:alex`、`buxin:jie_mo`、`buxin:run_grave`、`buxin:bbq`、`buxin:cun_min_wei_bing`、`buxin:green_villager_cavalry`、`buxin:villager_scout`、`buxin:dark_herobrine` 等（均可直接 `/summon`）。
 - `allenzhang710901` 为定制AI实例，使用：`/function av_build:spawn_player_allenzhang710901`。
 
 ## allenzhang710901 召唤小弟
-- 进入第二/第三形态后会按冷却自动召唤小弟协同作战。
-- 小弟和本体统一加入 `allen_allies` 队伍，已关闭友伤，不会内讧或攻击本体。
+- 进入第二/第三形态后会按冷却自动召唤玩家小队协同作战：`Steve`、`Alex`、`芥末`、`x_grave_x`。
+- 小队和本体统一加入 `allen_allies` 队伍，已关闭友伤，不会内讧或攻击本体。
