@@ -182,11 +182,11 @@ key_Camera down:key.keyboard.page.down
 key_Swap shoulder:key.keyboard.o
 key_Toggle perspective:key.keyboard.unknown
 key_key.epicfight.show_tooltip:key.keyboard.left.shift
-key_key.epicfight.switch_mode:key.keyboard.r
-key_key.epicfight.dodge:key.mouse.4
+key_key.epicfight.switch_mode:key.keyboard.g
+key_key.epicfight.dodge:key.keyboard.left.alt
 key_key.epicfight.attack:key.mouse.left
-key_key.epicfight.weapon_innate_skill:key.mouse.5
-key_key.epicfight.mover_skill:key.mouse.middle
+key_key.epicfight.weapon_innate_skill:key.keyboard.r
+key_key.epicfight.mover_skill:key.keyboard.v
 key_key.epicfight.skill_gui:key.keyboard.right.alt
 key_key.epicfight.lock_on:key.keyboard.grave.accent
 key_key.epicfight.config:key.keyboard.insert
