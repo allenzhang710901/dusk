@@ -71,3 +71,22 @@
 - 当前 `buxin-3.4.6` 中 `shadow_herobrine` 存在目标判空崩溃风险。
 - 已将 `HIM分身·先锋` 改为基于 `dark_herobrine` 的安全版。
 - 若旧存档里已有该实体，可执行：`/function av_build:cleanup_shadow_herobrine` 清理。
+
+
+## place 指令结构ID（可直接 `/place structure ...`）
+- `buxin:av_watchtower`
+- `buxin:av_barracks`
+- `buxin:av_blacksmith`
+- `buxin:av_command_center`
+- `buxin:av_medical_tent`
+- `buxin:av_supply_depot`
+- `buxin:av_training_camp`
+- `buxin:av_player_settlement`
+
+## summon 可用实体（本包相关）
+- `buxin:bbq`、`buxin:cun_min_wei_bing`、`buxin:green_villager_cavalry`、`buxin:villager_scout`、`buxin:dark_herobrine` 等（均可直接 `/summon`）。
+- `allenzhang710901` 为定制AI实例，使用：`/function av_build:spawn_player_allenzhang710901`。
+
+## allenzhang710901 召唤小弟
+- 进入第二/第三形态后会按冷却自动召唤小弟协同作战。
+- 小弟和本体统一加入 `allen_allies` 队伍，已关闭友伤，不会内讧或攻击本体。

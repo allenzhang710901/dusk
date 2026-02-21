@@ -9,6 +9,10 @@ effect give @s strength 2 4 true
 effect give @s regeneration 2 2 true
 effect give @s absorption 2 2 true
 
+scoreboard players remove @s allen_summon_cd 1
+execute if score @s allen_summon_cd matches ..0 if entity @s[tag=allen_phase2] run function av_build:allen_summon_minions
+execute if score @s allen_summon_cd matches ..0 if entity @s[tag=allen_phase3] run function av_build:allen_summon_minions
+
 # 阶段切换（按血量）
 execute if entity @s[tag=!allen_phase2,nbt={Health:..70f}] run function av_build:allen_phase2
 execute if entity @s[tag=!allen_phase3,nbt={Health:..35f}] run function av_build:allen_phase3
@@ -35,9 +39,9 @@ execute if score @s allen_cycle matches 97..102 run item replace entity @s weapo
 execute if score @s allen_cycle matches 103.. run scoreboard players set @s allen_cycle 0
 
 # 根据战斗距离，优先切换“最适合”武器类别
-execute if entity @e[distance=..3,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run function av_build:allen_ai_break_guard
-execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with buxin:obs
-execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with buxin:trident_blue_demon
+execute if entity @e[distance=..3,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item,tag=!allen_ally] run function av_build:allen_ai_break_guard
+execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item,tag=!allen_ally] run item replace entity @s weapon.mainhand with buxin:obs
+execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item,tag=!allen_ally] run item replace entity @s weapon.mainhand with buxin:trident_blue_demon
 
 # 残血时吃东西回血 + 逃跑 + 补血 + 搭掩体
 execute if entity @s[nbt={Health:..120f}] run function av_build:allen_ai_eat
