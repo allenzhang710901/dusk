@@ -8,7 +8,7 @@ playsound minecraft:entity.generic.eat master @a ~ ~ ~ 1 1
 # 玉米卷回复（轻度）
 effect give @s regeneration 4 1 true
 effect give @s saturation 1 1 true
-data merge entity @s {Health:40f}
+data merge entity @s {Health:140f}
 
 # 第二口：附魔金苹果（重度保命）
 item replace entity @s weapon.mainhand with minecraft:enchanted_golden_apple
@@ -18,7 +18,7 @@ playsound minecraft:entity.player.levelup master @a ~ ~ ~ 0.8 1.2
 effect give @s regeneration 8 2 true
 effect give @s absorption 20 1 true
 effect give @s resistance 8 2 true
-effect give @s instant_health 1 2 true
+effect give @s instant_health 1 4 true
 
 # 回战斗武器
 item replace entity @s weapon.mainhand with buxin:dark_legendary_sword

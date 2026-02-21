@@ -43,23 +43,26 @@
 
 
 ## allenzhang710901 强化AI（新增）
-- 基础血量升级到 180，初始攻击/移速进一步提高（专门针对能压制 angry_steve 调整）。
-- 残血（<=45）会优先“吃玉米卷+附魔金苹果”回血；重伤（<=24）会后撤逃跑并自疗。
+- 基础血量升级到 180，且二三阶段上限显著提高（专门针对压制 angry_steve 调整）。
+- 残血（<=120）会优先“吃玉米卷+附魔金苹果”强力回血；重伤（<=24）会后撤逃跑并自疗。
 - 残血时会在周围临时搭建方块掩体。
-- 战斗中按距离动态换武器，并持续轮换更大的整合包武器池：
-  - 近战优先：`buxin:dark_herobrine_weapon`
-  - 中距优先：弩
-  - 远程优先：三叉戟
+- 战斗中按距离动态换武器，并持续轮换更大的整合包武器池（新增反格挡逻辑）：
+  - 近战优先：触发 `av_build:allen_ai_break_guard`（切锋利下界斧 + 破防控制 + 魔法伤害）
+  - 中距优先：穿透弩（快速装填+穿透）
+  - 远程优先：强化三叉戟（穿刺+忠诚）
   - 轮换池新增：`he_jin_wan_sword` / `diamond_spear` / `diamond_shield` / `diamond_giant_sword` / `goldenlongsword` / `zuan_shi_wan_dao` 等。
 - 新增第二形态与第三形态：
   - 第二形态（血量<=70）：提升到更高上限并强化攻速生存。
   - 第三形态（血量<=35）：终局爆发，大幅提升攻击与移速。
+
+- AI 每tick会锁定显示名称为 `allenzhang710901`，避免击败提示回退到“愤怒的史蒂夫”。
 
 相关函数：
 - `av_build:tick`（每tick驱动）
 - `av_build:allen_ai_tick`
 - `av_build:allen_ai_flee`
 - `av_build:allen_ai_eat`
+- `av_build:allen_ai_break_guard`
 - `av_build:allen_phase2`
 - `av_build:allen_phase3`
 - `av_build:spawn_player_allenzhang710901`

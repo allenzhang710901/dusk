@@ -1,8 +1,13 @@
+# 锁定显示名称（避免击败提示回退为愤怒的史蒂夫）
+data merge entity @s {CustomName:'{"text":"allenzhang710901","color":"aqua","bold":true}',CustomNameVisible:1b,PersistenceRequired:1b}
+item replace entity @s weapon.offhand with minecraft:totem_of_undying
 # allenzhang710901 动态AI：三阶段 + 换武器 + 残血逃跑 + 临时搭方块
 
 # 常驻强化（高生存）
-effect give @s resistance 2 2 true
-effect give @s strength 2 2 true
+effect give @s resistance 2 3 true
+effect give @s strength 2 4 true
+effect give @s regeneration 2 2 true
+effect give @s absorption 2 2 true
 
 # 阶段切换（按血量）
 execute if entity @s[tag=!allen_phase2,nbt={Health:..70f}] run function av_build:allen_phase2
@@ -30,10 +35,10 @@ execute if score @s allen_cycle matches 97..102 run item replace entity @s weapo
 execute if score @s allen_cycle matches 103.. run scoreboard players set @s allen_cycle 0
 
 # 根据战斗距离，优先切换“最适合”武器类别
-execute if entity @e[distance=..3,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with buxin:dark_herobrine_weapon
-execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:crossbow
-execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:trident
+execute if entity @e[distance=..3,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run function av_build:allen_ai_break_guard
+execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:crossbow{Enchantments:[{id:"minecraft:quick_charge",lvl:3s},{id:"minecraft:piercing",lvl:4s}]}
+execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:trident{Enchantments:[{id:"minecraft:impaling",lvl:5s},{id:"minecraft:loyalty",lvl:3s}]}
 
 # 残血时吃东西回血 + 逃跑 + 补血 + 搭掩体
-execute if entity @s[nbt={Health:..45f}] run function av_build:allen_ai_eat
+execute if entity @s[nbt={Health:..120f}] run function av_build:allen_ai_eat
 execute if entity @s[nbt={Health:..24f}] run function av_build:allen_ai_flee
