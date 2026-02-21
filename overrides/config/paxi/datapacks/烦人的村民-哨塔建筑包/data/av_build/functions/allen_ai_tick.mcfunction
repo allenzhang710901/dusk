@@ -36,8 +36,8 @@ execute if score @s allen_cycle matches 103.. run scoreboard players set @s alle
 
 # 根据战斗距离，优先切换“最适合”武器类别
 execute if entity @e[distance=..3,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run function av_build:allen_ai_break_guard
-execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:crossbow{Enchantments:[{id:"minecraft:quick_charge",lvl:3s},{id:"minecraft:piercing",lvl:4s}]}
-execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with minecraft:trident{Enchantments:[{id:"minecraft:impaling",lvl:5s},{id:"minecraft:loyalty",lvl:3s}]}
+execute if entity @e[distance=4..12,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with buxin:obs
+execute if entity @e[distance=13..40,sort=nearest,limit=1,type=!buxin:angry_steve,type=!player_mobs:player_mob,type=!minecraft:item] run item replace entity @s weapon.mainhand with buxin:trident_blue_demon
 
 # 残血时吃东西回血 + 逃跑 + 补血 + 搭掩体
 execute if entity @s[nbt={Health:..120f}] run function av_build:allen_ai_eat

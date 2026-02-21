@@ -43,13 +43,13 @@
 
 
 ## allenzhang710901 强化AI（新增）
-- 基础血量升级到 180，且二三阶段上限显著提高（专门针对压制 angry_steve 调整）。
+- 基础血量升级到 500，且二三阶段上限进一步抬高（专门针对压制 angry_steve 调整）。
 - 残血（<=120）会优先“吃玉米卷+附魔金苹果”强力回血；重伤（<=24）会后撤逃跑并自疗。
 - 残血时会在周围临时搭建方块掩体。
 - 战斗中按距离动态换武器，并持续轮换更大的整合包武器池（新增反格挡逻辑）：
   - 近战优先：触发 `av_build:allen_ai_break_guard`（切锋利下界斧 + 破防控制 + 魔法伤害）
-  - 中距优先：穿透弩（快速装填+穿透）
-  - 远程优先：强化三叉戟（穿刺+忠诚）
+  - 中距优先：黑曜石武器（`buxin:obs`）
+  - 远程优先：三叉戟狂欢节（`buxin:trident_blue_demon`）
   - 轮换池新增：`he_jin_wan_sword` / `diamond_spear` / `diamond_shield` / `diamond_giant_sword` / `goldenlongsword` / `zuan_shi_wan_dao` 等。
 - 新增第二形态与第三形态：
   - 第二形态（血量<=70）：提升到更高上限并强化攻速生存。

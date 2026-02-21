@@ -1,9 +1,9 @@
 # 第二形态：强化中期作战
 scoreboard players set @s allen_phase 2
 tag @s add allen_phase2
-attribute @s minecraft:generic.max_health base set 300
-attribute @s minecraft:generic.attack_damage base set 36
-attribute @s minecraft:generic.movement_speed base set 0.52
+attribute @s minecraft:generic.max_health base set 650
+attribute @s minecraft:generic.attack_damage base set 48
+attribute @s minecraft:generic.movement_speed base set 0.58
 effect give @s regeneration 10 2 true
 effect give @s strength 10 4 true
 effect give @s resistance 10 3 true
